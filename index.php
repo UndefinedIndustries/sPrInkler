@@ -1,3 +1,3 @@
 <?php
-include_once 'check.php';
+include 'lib/check.php';
  ?>
