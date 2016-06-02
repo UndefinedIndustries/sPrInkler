@@ -1,5 +1,5 @@
 <?php
-include 'lib/check.php';
+
  ?>
  <!DOCTYPE html>
  <html>
@@ -8,5 +8,8 @@ include 'lib/check.php';
      <title></title>
    </head>
    <body>
+     <form action="lib/submit.php" method="get">
+       <?php include 'lib/check.php'; ?> 
+     </form>
    </body>
  </html>

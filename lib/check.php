@@ -24,6 +24,8 @@ exec ( "gpio read 24", $status );
 $test = 1;
 foreach ($status as $value){
   if ($value == 1){ $data = "Off"; }else{ $data = "On"; }
-   echo 'Station: '.++$a.'<br/> Status: '.$data.'<br/><br/>';
+   echo 'Station: '.++$a.' &nbspStatus: '.$data.'<br/>';
+   if ($value == 1){}
+   echo '<button id='.$a.'> Toggle </button><br/>';
 }
  ?>
