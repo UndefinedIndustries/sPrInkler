@@ -8,8 +8,8 @@
      <title></title>
    </head>
    <body>
-     <form action="lib/submit.php" method="get">
-       <?php include 'lib/check.php'; ?> 
+     <form action="lib/submit.php" method="get" name="on">
+       <?php include 'lib/check.php'; ?>
      </form>
    </body>
  </html>

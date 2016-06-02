@@ -25,7 +25,11 @@ $test = 1;
 foreach ($status as $value){
   if ($value == 1){ $data = "Off"; }else{ $data = "On"; }
    echo 'Station: '.++$a.' &nbspStatus: '.$data.'<br/>';
-   if ($value == 1){}
-   echo '<button id='.$a.'> Toggle </button><br/>';
+   if ($value == 0){
+     echo '<button name="off" value='.$a.'> Turn Off </button><br/>';
+   }else{
+     echo '<button name="on" value='.$a.'> Turn On </button><br/>';
+   }
+
 }
  ?>
