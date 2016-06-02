@@ -1,33 +1,29 @@
 
 <?php
 #System 1
-exec ( "gpio read 13", $status );
-print_r ( $status[0] );
-#System 2
-exec ( "gpio read 18", $status );
-print_r ( $status[1] );
-#System 3
 exec ( "gpio read 23", $status );
-print_r ( $status[2] );
+#System 2
+exec ( "gpio read 1", $status );
+#System 3
+exec ( "gpio read 4", $status );
 #System 4
-exec ( "gpio read 7", $status );
-print_r ( $status[3] );
+exec ( "gpio read 0", $status );
 #System 5
-exec ( "gpio read 27", $status );
-print_r ( $status[4] );
+exec ( "gpio read 2", $status );
 #System 6
-exec ( "gpio read 22", $status );
-print_r ( $status[5] );
+exec ( "gpio read 3", $status );
 #System 7
-exec ( "gpio read 10", $status );
-print_r ( $status[6] );
+exec ( "gpio read 12", $status );
 #System 8
-exec ( "gpio read 9", $status );
-print_r ( $status[7] );
+exec ( "gpio read 13", $status );
 #System 9
-exec ( "gpio read 11", $status );
-print_r ( $status[8] );
+exec ( "gpio read 14", $status );
 #System 10
-exec ( "gpio read 19", $status );
-print_r ( $status[9] );
+exec ( "gpio read 24", $status );
+
+$test = 1;
+foreach ($status as $value){
+  if ($value == 1){ $data = "Off"; }else{ $data = "On"; }
+   echo 'Station: '.++$a.'<br/> Status: '.$data.'<br/><br/>';
+}
  ?>
