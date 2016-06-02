@@ -28,4 +28,5 @@ elseif ($run == 9) {$data = 11;}
 elseif ($run == 10) {$data = 19;}
 $test = shell_exec("sudo python off.py ".$data);
 }
+header('Location: ../');
  ?>
