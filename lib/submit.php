@@ -26,9 +26,9 @@ elseif ($run == 8) {$data = 9;}
 elseif ($run == 9) {$data = 11;}
 elseif ($run == 10) {$data = 19;}
 exec("sudo python off.py");}
-if(isset($_GET['sysoff'])) {
-exec('echo 0 > /sys.dat');}
-if(isset($_GET['syson'])) {
-exec('echo 1 > /sys.dat');}
+if(isset($_POST['sysoff'])) {
+exec('echo 0 > sys.dat');}
+if(isset($_POST['syson'])) {
+exec('echo 1 > sys.dat');}
 header('Location: ../');
  ?>

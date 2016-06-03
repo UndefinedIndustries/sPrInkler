@@ -10,10 +10,24 @@
      <title></title>
    </head>
    <body>
-     <form action="lib/submit.php" method="get" name="on">
+     <center>
+     <form action="lib/submit.php" method="post">
+       <?php
+       $test1=file_get_contents('lib/sys.dat');
+       echo $test1;
+       if($test1 == 1){
+       echo '<button name="sysoff" class="btnoff"> Turn Off </button><br/>';
+       }else{
+       echo '<button name="syson" class="btnon"> Turn On </button><br/>';
+       }
+        ?>
+     </form>
+     <form action="lib/submit.php" method="get">
       <!--<form>-->
-        <center>
+
+
           <?php include 'lib/check.php'; ?>
+
         </center>
      </form>
    </body>

@@ -2,10 +2,16 @@
 echo 'running the script...'
 while [ true ]; do
 test=$(date +%H%M)
-if [ $test == "2204" ]; then
-  /var/www/html/lib/sys.py &
+test1=$(cat /var/www/html/lib/sys.dat)
+#change that dir ^ to needed.
+if [ $test1 == "1" ]; then
+  if [ $test == "2204" ]; then
+    /var/www/html/lib/sys.py &
+  else
+    echo 'test'
+  fi
 else
-  echo 'test'
+  echo 'No'
 fi
 sleep 60
 done

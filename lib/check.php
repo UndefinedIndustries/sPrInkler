@@ -21,7 +21,6 @@ exec ( "gpio read 14", $status );
 #System 10
 exec ( "gpio read 24", $status );
 
-$test = 1;
 foreach ($status as $value){
   if ($value == 1){ $data = "Off"; }else{ $data = "On"; }
    echo '<p class="label">Station: '.++$a.' &nbspStatus: '.$data.'</p><br/>';
