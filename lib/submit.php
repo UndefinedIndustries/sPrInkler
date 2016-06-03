@@ -1,5 +1,6 @@
 <?php
 if(isset($_GET['on'])) {
+echo 'test';
 $run = $_GET['on'];
 if ($run == 1){$data = 13;}
 elseif ($run == 2) {$data = 18;}

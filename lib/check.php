@@ -1,5 +1,6 @@
 
 <?php
+$a = '';
 #System 1
 exec ( "gpio read 23", $status );
 #System 2

@@ -14,20 +14,18 @@
      <form action="lib/submit.php" method="post">
        <?php
        $test1=file_get_contents('lib/sys.dat');
-       echo $test1;
+
        if($test1 == 1){
+       echo '<p>System Schedule&nbsp&nbsp&nbspStatus: On</p>';
        echo '<button name="sysoff" class="btnoff"> Turn Off </button><br/>';
        }else{
+       echo '<p>System Schedule&nbspStatus: Off</p>';
        echo '<button name="syson" class="btnon"> Turn On </button><br/>';
        }
         ?>
      </form>
      <form action="lib/submit.php" method="get">
-      <!--<form>-->
-
-
-          <?php include 'lib/check.php'; ?>
-
+            <?php include 'lib/check.php'; ?>
         </center>
      </form>
    </body>
