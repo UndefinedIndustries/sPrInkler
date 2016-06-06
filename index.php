@@ -10,7 +10,8 @@
      <title></title>
    </head>
    <body>
-     <center>
+     <a href="edit.php" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 30px;">&nbspConfig</a>
+     <div style="max-width: 500px;margin: 0 auto !important;float: none !important;text-align:center;">
      <form action="lib/submit.php" method="post">
        <?php
        $test1=file_get_contents('lib/sys.dat');
