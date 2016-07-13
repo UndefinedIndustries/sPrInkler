@@ -18,9 +18,29 @@ $time = $_POST["name1"];
 exec("echo ".$time." > test.dat");
 }
 */
+
+?>
+<style>
+div#c{
+margin-left: 10px;
+}
+#test{
+float: left;
+margin-right: 10px;
+
+}
+</style>
+<?php
 foreach ($data1 as $value){
+  echo '<div id="test">';
 $test = $value / 60;
-echo "System ".++$a."&nbsp";
+if($a=="10"){
+  echo"System 10";
+}else{
+echo "System ".++$a."&nbsp&nbsp";
+}
+
+echo '</div>';
 echo "<select id='time' name=".$a.">";
 
 if ($value == "0"){
@@ -55,7 +75,6 @@ if($value =="300"){
   echo "<option value='900'>15 Minutes</option>";
   echo "<option value='1200'>20 Minutes</option>";
 }
-
 
 echo "</select>";
 echo "</br>";

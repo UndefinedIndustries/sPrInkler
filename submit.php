@@ -1,5 +1,6 @@
 <?php
 if(isset($_POST['on'])) {
+echo 'test';
 $run = $_POST['on'];
 if ($run == 1){$data = 13;}
 elseif ($run == 2) {$data = 18;}
@@ -30,6 +31,5 @@ if(isset($_POST['sysoff'])) {
 exec('echo 0 > sys.dat');}
 if(isset($_POST['syson'])) {
 exec('echo 1 > sys.dat');}
-#echo('<script>console.log("test");</script>');
 header('Location: ../');
  ?>
