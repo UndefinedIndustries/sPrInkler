@@ -5,7 +5,7 @@ test=$(date +%H%M)
 test1=$(cat /var/www/html/lib/sys.dat)
 #change that dir ^ to needed.
 if [ $test1 == "1" ]; then
-  if [ $test == "2345" ]; then
+  if [ $test == "2330" ]; then
     /var/www/html/lib/sys.py &
   else
     echo 'test'

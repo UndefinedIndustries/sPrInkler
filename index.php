@@ -10,16 +10,7 @@
      <meta charset="utf-8">
     <link href="https://gavinscodetest.tk/css/style.css" rel="stylesheet" type="text/css"></link>
      <script src="https://gavinscodetest.tk/js/1jquery.js"></script>
-     <script> $( document ).ready(function() {
-       setInterval(function(){
-
-          $("#data").load("lib/check.php");
-       }, 2500);
-
-
-   });
-
-     </script>
+     <script src="https://gavinscodetest.tk/js/sprinkler.js"></script>
      <title></title>
    </head>
    <body>
@@ -47,5 +38,14 @@
           </div>
      </form>
 </center>
+
+
+<div style="bottom: 0;position:fixed;float:right;right:0;">
+    <button onclick="starts();" style="background-color:Transparent;border:0px;">
+    <img src="https://gavinscodetest.tk/img/microphone.png" width="35"/></button>
+  </div>
+
+
+
    </body>
  </html>
