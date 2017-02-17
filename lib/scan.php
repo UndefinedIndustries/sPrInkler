@@ -45,7 +45,7 @@ function calendar(){
       $name = "Sunday";
     }
   ?>
-  <td><input type="checkbox" name="<?php echo $name; ?>" value="<?php echo $i;?>"><?php echo $name; ?></input></td>
+  <td><input type="checkbox" name="<?php echo $i; ?>" value="<?php echo $i;?>"><?php echo $name; ?></input></td>
   <?php
   }
 
