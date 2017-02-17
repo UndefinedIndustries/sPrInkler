@@ -20,11 +20,38 @@ foreach ($pins as $id){
 
 }
 function calendar(){
-  for(int $i =0 ; $i <10; $i++){
-    
+  $i = 0;
+  $name = "test";
+  for( $i = 1; $i<=7; $i++ ) {
+    if($i == 1){
+      $name = "Monday";
+    }
+    if($i == 2){
+      $name = "Tuesday";
+    }
+    if($i == 3){
+      $name = "Wednesday";
+    }
+    if($i == 4){
+      $name = "Thursday";
+    }
+    if($i == 5){
+      $name = "Friday";
+    }
+    if($i == 6){
+      $name = "Saturday";
+    }
+    if($i == 7){
+      $name = "Sunday";
+    }
+  ?>
+  <td><input type="checkbox" name="<?php echo $name; ?>" value="<?php echo $i;?>"><?php echo $name; ?></input></td>
+  <?php
   }
+
 }
 
 #echo_system();
 #read_gpio();
+#calendar();
 ?>
