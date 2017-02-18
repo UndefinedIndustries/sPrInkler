@@ -89,6 +89,3 @@ echo "</br>";
 }
 
  ?>
-
- <!--
- <input type="submit" name="sub1" value="Submit Data">
