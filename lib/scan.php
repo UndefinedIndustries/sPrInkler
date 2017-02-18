@@ -11,6 +11,7 @@ echo "System $x<br/>";
 function read_gpio(){
   global $pins;
 
+
 foreach ($pins as $id){
   exec ( "gpio -g read ".$id, $value);
   foreach ($value as $key) {
@@ -19,15 +20,22 @@ foreach ($pins as $id){
 }
 
 }
+function check_day($dayx){
+  for ($t=1; $t <=7 ; $t++) {
+    exec('cat ../data/day'.$t.'.dat', $status);
+
+      }
+      if ($status[$dayx] == 1){
+        echo 'checked ';
+      }
+    }
+
+
 function calendar(){
-  $i = 0;
-  $name = "test";
-   for ($t=1; $t <7 ; $t++) {
-     exec('cat ../data/day'.$t.'.dat', $status);
-   }
-  for ($w=0; $w <6 ; $w++) {
-      echo $status[$w];
-  }
+   $i = 0;
+   $name = "test";
+
+
   for( $i = 1; $i<=7; $i++ ) {
     if($i == 1){
       $name = "Monday";
@@ -54,7 +62,10 @@ function calendar(){
 
 
   ?>
-  <td><input type="checkbox" name="day<?php echo $i;?>" value="<?php echo $i;?>"><?php echo $name; ?></input></td>
+  <td><input type="checkbox" <?php
+  check_day($i-1);
+
+  ?>name="day<?php echo $i;?>" value="<?php echo $i;?>"><?php echo $name; ?></input></td>
   <?php
   }
 
@@ -62,5 +73,5 @@ function calendar(){
 
 #echo_system();
 #read_gpio();
-#calendar();
+calendar();
 ?>
