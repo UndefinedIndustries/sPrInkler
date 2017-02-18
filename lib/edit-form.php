@@ -47,13 +47,13 @@ if($a=="10"){
 }else{
 echo "System ".++$a."&nbsp&nbsp";
 }
-
 echo '</div>';
 echo "<select id='time' name=".$a.">";
 
 if ($value == "0"){
 echo "<option selected value='0'>Off</option>";
 }else {
+
   echo "<option selected value='$value'>".$test." Minutes</option>";
 }
 echo "<option disabled></option>";
@@ -88,6 +88,9 @@ echo "</select>";
 echo "</br>";
 echo "</br>";
 }
+
+include 'calendar.php';
  ?>
+
  <!--
  <input type="submit" name="sub1" value="Submit Data">
