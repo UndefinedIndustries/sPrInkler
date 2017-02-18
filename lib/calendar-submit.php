@@ -6,5 +6,5 @@
             exec('echo 0 > ./data/day'.$i.'.dat');
     }
 }
-header('Location: ./edit-form.php');
+header('Location: ../edit.php');
 ?>
