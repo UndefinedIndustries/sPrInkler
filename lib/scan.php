@@ -73,5 +73,5 @@ function calendar(){
 
 #echo_system();
 #read_gpio();
-calendar();
+#calendar();
 ?>
