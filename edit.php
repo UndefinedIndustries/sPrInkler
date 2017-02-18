@@ -12,3 +12,7 @@
 include 'lib/edit-form.php';
  ?>
  </div>
+ </form>
+ <div id="texts" style="margin-left: 25%;margin-right:25%;width:50%;background-color: #fff;text-align: right;background-color: #AEAEAE;padding:5px;border-radius:10px;font-size: 1em;">
+   <?php include('lib/calendar.php'); ?>
+  </div>

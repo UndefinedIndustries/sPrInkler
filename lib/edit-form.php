@@ -88,7 +88,6 @@ echo "</br>";
 echo "</br>";
 }
 
-include 'calendar.php';
  ?>
 
  <!--
