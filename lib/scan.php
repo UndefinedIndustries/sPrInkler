@@ -22,6 +22,13 @@ foreach ($pins as $id){
 function calendar(){
   $i = 0;
   $name = "test";
+   for ($w=0; $w <6 ; $w++) {
+
+   }
+  exec('cat ../data/day'.$t.'.dat', $status);
+  for ($w=0; $w <6 ; $w++) {
+      echo $status[$w];
+  }
   for( $i = 1; $i<=7; $i++ ) {
     if($i == 1){
       $name = "Monday";
@@ -44,8 +51,11 @@ function calendar(){
     if($i == 7){
       $name = "Sunday";
     }
+
+
+
   ?>
-  <td><input type="checkbox" name="<?php echo $i; ?>" value="<?php echo $name;?>"><?php echo $name; ?></input></td>
+  <td><input type="checkbox" name="day<?php echo $i;?>" value="<?php echo $i;?>"><?php echo $name; ?></input></td>
   <?php
   }
 
