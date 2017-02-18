@@ -22,7 +22,7 @@ foreach ($pins as $id){
 }
 function check_day($dayx){
   for ($t=1; $t <=7 ; $t++) {
-    exec('cat ../data/day'.$t.'.dat', $status);
+    exec('cat ./data/day'.$t.'.dat', $status);
       }
       if ($status[$dayx] == 1){
         echo 'checked ';
