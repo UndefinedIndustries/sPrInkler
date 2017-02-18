@@ -22,10 +22,9 @@ foreach ($pins as $id){
 function calendar(){
   $i = 0;
   $name = "test";
-   for ($w=0; $w <6 ; $w++) {
-
+   for ($t=1; $t <7 ; $t++) {
+     exec('cat ../data/day'.$t.'.dat', $status);
    }
-  exec('cat ../data/day'.$t.'.dat', $status);
   for ($w=0; $w <6 ; $w++) {
       echo $status[$w];
   }
