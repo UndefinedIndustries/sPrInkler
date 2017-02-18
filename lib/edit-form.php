@@ -38,6 +38,7 @@ select{
 <br/>
 
 <?php
+include 'calendar.php';
 foreach ($data1 as $value){
   echo '<div id="test">';
 $test = $value / 60;

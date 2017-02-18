@@ -1,17 +1,22 @@
 #!/bin/bash
-echo 'running the script...'
+echo 'running the sprinkler script...'
 while [ true ]; do
-test=$(date +%H%M)
-test1=$(cat /var/www/html/lib/sys.dat)
+systime=$(date +%H%M)
+runsys=$(cat /var/www/html/lib/sys.dat)
 #change that dir ^ to needed.
-if [ $test1 == "1" ]; then
-  if [ $test == "2330" ]; then
-    /var/www/html/lib/sys.py &
+sysday=$(cat "/var/www/html/lib/day$(date +%u).dat")
+if [ "$runsys" == "1" ]; then
+  if [ "$sysday" == "1" ]; then
+    if [ "$systime" == "2330" ]; then
+      /var/www/html/lib/sys.py &
+    else
+      echo ''
+    fi
   else
-    echo 'test'
+    echo ''
   fi
 else
-  echo 'No'
+  echo ''
 fi
 sleep 60
 done
