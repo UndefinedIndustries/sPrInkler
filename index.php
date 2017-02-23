@@ -11,6 +11,8 @@
     <link href="https://gavinscodetest.tk/css/style.css" rel="stylesheet" type="text/css"></link>
      <script src="https://gavinscodetest.tk/js/1jquery.js"></script>
      <script src="https://gavinscodetest.tk/js/sprinkler.js"></script>
+     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+
      <title></title>
    </head>
    <body>
@@ -24,10 +26,10 @@
 
        if($test1 == 1){
        echo '<p>System Schedule&nbsp&nbsp&nbspStatus: On</p>';
-       echo '<button name="sysoff" class="btnoff"> Turn Off </button><br/>';
+       echo '<br/><button name="sysoff" class="w3-btn w3-teal w3-xlarge w3-hover-indigo w3-round-large"> Turn Off </button><br/>';
        }else{
        echo '<p>System Schedule&nbspStatus: Off</p>';
-       echo '<button name="syson" class="btnon"> Turn On </button><br/>';
+       echo '<br/><button name="syson" class="w3-btn w3-blue w3-xlarge w3-round-large w3-hover-indigo"> Turn On </button><br/>';
        }
         ?>
      </form>

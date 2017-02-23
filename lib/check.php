@@ -26,11 +26,11 @@ exec ( "gpio read 24", $status );
 
 foreach ($status as $value){
   if ($value == 1){ $data = "Off"; }else{ $data = "On"; }
-   echo '<p class="label">Station: '.++$a.' &nbspStatus: '.$data.'</p><br/>';
+   echo '<br/><p class="label">Station: '.++$a.' &nbspStatus: '.$data.'</p><br/>';
    if ($value == 0){
-     echo '<button name="off" value='.$a.' class="btnoff" id="f-btn'.$a.'"> Turn Off </button><br/>';
+     echo '<button name="off" value='.$a.' class="w3-btn w3-xlarge w3-black w3-round-large w3-hover-blue-grey" id="f-btn'.$a.'"> Turn Off </button><br/>';
    }else{
-     echo '<button name="on" value='.$a.' class="btnon"id="f-btn'.$a.'">Turn On </button><br/>';
+     echo '<button name="on" value='.$a.' class="w3-btn w3-xlarge w3-black w3-round-large w3-hover-blue-grey" id="f-btn'.$a.'">Turn On </button><br/>';
    }
 
 }
