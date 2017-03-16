@@ -9,6 +9,7 @@ include 'scan.php';
     <title></title>
   </head>
   <body>
+      
     <table>
       <th>Schedule</th>
         <form action="lib/calendar-submit.php" method="get">
