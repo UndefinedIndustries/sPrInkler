@@ -1,19 +1,20 @@
 #!/bin/bash
+workdir=/var/www/html/modules/sPrInkler/lib
 echo 'running the sprinkler script...'
 while [ true ]; do
 systime=$(date +%H%M)
-runsys=$(cat /var/www/html/lib/sys.dat)
+runsys=$(cat $workdir/sys.dat)
 #change that dir ^ to needed.
-sysday=$(cat "/var/www/html/lib/day$(date +%u).dat")
+sysday=$(cat "$workdir/../data/day$(date +%u).dat")
 if [ "$runsys" == "1" ]; then
   if [ "$sysday" == "1" ]; then
     if [ "$systime" == "2330" ]; then
-      /var/www/html/lib/sys.py &
+      ./sys.py &
     else
       echo ''
     fi
   else
-    echo ''
+    echo 'Not a day today'
   fi
 else
   echo ''
