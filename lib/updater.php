@@ -1,4 +1,4 @@
 <?php 
- exec('git -C ../ pull');
+ exec('git -C ../ fetch --all & git reset --hard origin/master & git pull origin master');
  ?>
  
