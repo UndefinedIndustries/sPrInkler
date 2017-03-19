@@ -15,14 +15,14 @@
 </center>
 <br/>
 <br/>
-<div id="texts" style="margin-left: 25%;margin-right:25%;width:50%;;text-align: right;padding:5px;font-size: 1em;">
+<div id="texts" style="margin-left: 25%;margin-right:25%;width:50%;text-align: right;padding:5px;font-size: 2em;">
 <?php
 include 'lib/edit-form.php';
  ?>
  </div>
  </form>
  <br/>
- <div id="texts" style="margin-left: 25%;margin-right:25%;width:50%;background-color: #000;text-align: right;background-color: #AEAEAE;padding:5px;border-radius:10px;font-size: 1em;">
+ <div id="texts1" style="margin-left: 25%;margin-right:25%;width:50%;background-color: #000;text-align: right;padding:5px;border-radius:10px;font-size: 2em;">
    <?php include('lib/calendar.php'); ?>
   </div>
 </body>

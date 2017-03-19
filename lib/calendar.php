@@ -14,7 +14,7 @@ include 'scan.php';
       <th>Schedule</th>
         <form action="lib/calendar-submit.php" method="get">
           <?php calendar(); ?>
-          <input type="submit" value="submit"/>
+          <input type="submit" value="Submit"/>
 
 
         </form>
