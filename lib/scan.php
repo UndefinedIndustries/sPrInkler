@@ -62,14 +62,14 @@ function calendar(){
 
   ?>
 
-        <span style="float:left;">
+        <span style="float:left;font-size: .75em">
       <?php echo $name; ?>
   </span>
   
       <input style="float:right;" type="checkbox" <?php
   check_day($i-1);
 
-  ?>name="day<?php echo $i;?>" value="<?php echo $i;?>"></input><br/></td></tr>
+  ?>name="day<?php echo $i;?>" value="<?php echo $i;?>"></input><br/><br/></td></tr>
 
   <?php
   }
