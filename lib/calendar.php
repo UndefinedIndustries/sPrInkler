@@ -10,8 +10,8 @@ include 'scan.php';
   </head>
   <body>
       
-    <table>
-      <th>Schedule</th>
+
+     <center><span style="color: #fff;font-size: 2em;">Schedule</span></center>
         <form action="lib/calendar-submit.php" method="get">
           <?php calendar(); ?>
           <input type="submit" value="Submit"/>
