@@ -61,9 +61,7 @@ function calendar(){
 
 
   ?>
-  <table>
-      <tr>
-  <td>
+
         <span style="float:left;">
       <?php echo $name; ?>
   </span>
@@ -72,7 +70,7 @@ function calendar(){
   check_day($i-1);
 
   ?>name="day<?php echo $i;?>" value="<?php echo $i;?>"></input><br/></td></tr>
-  </table>
+
   <?php
   }
 

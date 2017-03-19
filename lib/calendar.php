@@ -18,6 +18,6 @@ include 'scan.php';
 
 
         </form>
-    </table>
+
   </body>
 </html>
