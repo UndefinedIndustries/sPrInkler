@@ -11,7 +11,7 @@
     <link href="https://gavinscodetest.tk/css/style.css" rel="stylesheet" type="text/css"></link>
      <script src="https://gavinscodetest.tk/js/1jquery.js"></script>
      <script src="https://gavinscodetest.tk/js/sprinkler.js"></script>
-     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
      <title></title>
    </head>
