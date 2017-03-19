@@ -48,6 +48,9 @@
     <button onclick="starts();" style="background-color:Transparent;border:0px;">
     <img src="https://gavinscodetest.tk/img/microphone.png" width="35"/></button>
   </div>
+<div style="bottom: 0;position:fixed;float:left;left:0;">
+    <?php include_once('lib/version.php'); ?>
+  </div>
 
 
 
