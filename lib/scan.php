@@ -62,7 +62,7 @@ function calendar(){
 
   ?>
 
-        <span style="float:left;font-size: .75em">
+        <span style="float:left;font-size: .9em">
       <?php echo $name; ?>
   </span>
   
