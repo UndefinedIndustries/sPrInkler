@@ -61,10 +61,13 @@ function calendar(){
 
 
   ?>
+  <table>
+      <tr>
   <td><input type="checkbox" <?php
   check_day($i-1);
 
-  ?>name="day<?php echo $i;?>" value="<?php echo $i;?>"><?php echo $name; ?></input></td>
+  ?>name="day<?php echo $i;?>" value="<?php echo $i;?>"><?php echo $name; ?></input></td></tr>
+  </table>
   <?php
   }
 
