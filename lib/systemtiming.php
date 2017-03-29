@@ -1,8 +1,12 @@
+<link href="https://gavinscodetest.tk/css/style.css" rel="stylesheet" type="text/css"></link>
+<script src="https://gavinscodetest.tk/js/1jquery.js"></script>
+<script src="https://gavinscodetest.tk/js/sprinkler.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <span style="color: #fff; font-size: 1.5em">
     System Timing
 </span>
 <br/>
-<a href="/lib/systemtiming.php" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 1em;">
+<a href="/edit.php" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 1em;">
     &nbsp Schedule
 </a>
 <input type="submit" name="sub1" value="Submit" class="w3-btn w3-xlarge w3-blue w3-round-large w3-hover-blue-grey">
