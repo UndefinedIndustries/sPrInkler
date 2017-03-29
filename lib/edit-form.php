@@ -1,14 +1,14 @@
 <?php
-	exec ("cat /data/sys1.dat", $data1);
-	exec ("cat /data/sys2.dat", $data1);
-	exec ("cat /data/sys3.dat", $data1);
-	exec ("cat /data/sys4.dat", $data1);
-	exec ("cat /data/sys5.dat", $data1);
-	exec ("cat /data/sys6.dat", $data1);
-	exec ("cat /data/sys7.dat", $data1);
-	exec ("cat /data/sys8.dat", $data1);
-	exec ("cat /data/sys9.dat", $data1);
-	exec ("cat /data/sys10.dat", $data1);
+	exec ("cat ../data/sys1.dat", $data1);
+	exec ("cat ../data/sys2.dat", $data1);
+	exec ("cat ../data/sys3.dat", $data1);
+	exec ("cat ../data/sys4.dat", $data1);
+	exec ("cat ../data/sys5.dat", $data1);
+	exec ("cat ../data/sys6.dat", $data1);
+	exec ("cat ../data/sys7.dat", $data1);
+	exec ("cat ../data/sys8.dat", $data1);
+	exec ("cat ../data/sys9.dat", $data1);
+	exec ("cat ../data/sys10.dat", $data1);
 	$a = '';
 ?>
 <style>
