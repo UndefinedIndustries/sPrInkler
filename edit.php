@@ -7,7 +7,7 @@
  	<script src="https://gavinscodetest.tk/js/sprinkler.js"></script>
 	<center>
 		<br/>
-		    <a href="/lib/systemtiming.php" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 1em;">
+		    <a href="lib/systemtiming.php" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 1em;">
         		&nbspSystem Timing
         	</a>
  	        <br/>
