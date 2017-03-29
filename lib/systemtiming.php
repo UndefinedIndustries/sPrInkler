@@ -3,7 +3,7 @@
 <script src="https://gavinscodetest.tk/js/sprinkler.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
-<a href="/edit.php" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 1em;">
+<a href="../edit.php" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 1em;">
     &nbsp Schedule
 </a>
 <br/>
