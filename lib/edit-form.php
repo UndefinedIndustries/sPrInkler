@@ -71,8 +71,7 @@
 			echo "<option value='900'>15 Minutes</option>";
 			echo "<option value='1200'>20 Minutes</option>";
 		}
-		echo "</br>";
-		echo "</br>";
 		echo "</select>";
+		echo "<br/>";
 	}
  ?>
