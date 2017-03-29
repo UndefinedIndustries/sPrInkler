@@ -16,7 +16,7 @@
         <form action="lib/calendar-submit.php" method="get">
           <?php calendar(); ?>
           <center>
-              <input type="submit" value="Submit" class="w3-blue w3-btn w3-hover-red"/>
+              <input type="submit" value="Submit" class="w3-blue w3-btn w3-hover-red w3-round-large"/>
           </center>
         </form>
   </body>
