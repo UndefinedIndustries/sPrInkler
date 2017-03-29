@@ -21,9 +21,10 @@
 		color :#fff;
 		font-size: .75em;
 	}
-	select{
+	select#time{
   		border: 0px solid;
   		font-size: .75em;
+        float:right;
 	}
 </style>
 <br/>
