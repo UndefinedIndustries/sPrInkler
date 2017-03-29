@@ -18,7 +18,7 @@
     ?>
 </div>
 <input type="submit" name="sub1" value="Submit" class="w3-btn w3-xlarge w3-blue w3-round-large w3-hover-blue-grey"></input>
-<a href="/index.php" style="text-decoration: none;color :#000;">
+<a href="../index.php" style="text-decoration: none;color :#000;">
     <button type="button" class="w3-btn w3-xlarge w3-blue w3-round-large w3-hover-blue-grey">
         Cancel
     </button>
