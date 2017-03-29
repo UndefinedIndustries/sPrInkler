@@ -1,25 +1,4 @@
 <?php
-include 'pins.ini.php';
-function echo_system(){
-  global $pins;
-
-for ($x = 1; $x <= sizeof($pins); $x++) {
-echo "System $x<br/>";
-
-}
-}
-function read_gpio(){
-  global $pins;
-
-
-foreach ($pins as $id){
-  exec ( "gpio -g read ".$id, $value);
-  foreach ($value as $key) {
-    echo $key;
-  }
-}
-
-}
 function check_day($dayx){
   for ($t=1; $t <=7 ; $t++) {
     exec('cat ./data/day'.$t.'.dat', $status);
