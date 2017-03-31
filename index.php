@@ -21,18 +21,20 @@
 		&nbspHome
 	</a>
     <center>
-    	<div style="max-width: 500px;margin: 0 auto !important;float: none !important;text-align:center;">
+    	<div style="max-width: 400px;margin: 0 auto !important;float: none !important;text-align:center;">
      		<form id ="test" action="lib/submit.php" method="post">
+				<div style="max-width:600px;">
        			<?php
        				$test1=file_get_contents('lib/sys.dat'); //get the contents of the file lib/sys.dat
        				if($test1 == 1){  // if the variable test1 is equal to one
-       					echo '<p>System Schedule&nbsp&nbsp&nbspStatus: On</p>'; //echo that the system is on
-       					echo '<br/><button name="sysoff" class="w3-btn w3-teal w3-xlarge w3-hover-indigo w3-round-large"> Turn Off </button><br/>'; //make a buton that says turn off
+       					echo '<p style="float:left" >System Schedule <br> Status: On</p>'; //echo that the system is on
+       					echo '<button name="sysoff"style="float:right" class="w3-btn w3-teal w3-xlarge w3-hover-indigo w3-round-large"> Turn Off </button><br/>'; //make a buton that says turn off
    					}else{ //else
-				       echo '<p>System Schedule&nbspStatus: Off</p>'; //echo that the system is off
-				       echo '<br/><button name="syson" class="w3-btn w3-blue w3-xlarge w3-round-large w3-hover-indigo"> Turn On </button><br/>'; //make a button that says turn on
+				       echo '<p style="float:left">System Schedule <br> Status: Off</p>'; //echo that the system is off
+				       echo '</br><button name="syson" style="float:right" class="w3-btn w3-blue w3-xlarge w3-round-large w3-hover-indigo"> Turn On </button><br/>'; //make a button that says turn on
        				}
         		?>
+			</div>
      		</form>
      		<form  action="lib/submit.php" method="post">
        			<div id="data"/>

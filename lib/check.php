@@ -22,12 +22,17 @@
 	exec ( "gpio read 24", $status );
 #Garage Door
 	foreach ($status as $value){
+		?>
+			<div style="max-width: 400px;">
+		<?php
   		if ($value == 1){ $data = "Off"; }else{ $data = "On"; }
-   			echo '<br/><p class="label">Station: '.++$a.' &nbspStatus: '.$data.'</p><br/>';
+   			echo '<br/><p style="float:left;" class="label">Station: '.++$a.' &nbspStatus: '.$data.'</p><br/>';
    		if ($value == 0){
-     		echo '<button name="off" value='.$a.' class="w3-btn w3-xlarge w3-black w3-round-large w3-hover-blue-grey" id="f-btn'.$a.'"> Turn Off </button><br/>';
+     		echo '<button style="float:right;" name="off" value='.$a.' class="w3-btn w3-xlarge w3-black w3-round-large w3-hover-blue-grey" id="f-btn'.$a.'"> Turn Off </button><br/>';
    		}else{
-     		echo '<button name="on" value='.$a.' class="w3-btn w3-xlarge w3-black w3-round-large w3-hover-blue-grey" id="f-btn'.$a.'">Turn On </button><br/>';
-   		}
+     		echo '<button name="on" style="float:right;" value='.$a.' class="w3-btn w3-xlarge w3-black w3-round-large w3-hover-blue-grey" id="f-btn'.$a.'">Turn On </button><br/>';
+   		}?>
+	</div>
+		<?php
 	}
  ?>
