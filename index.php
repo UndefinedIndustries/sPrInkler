@@ -28,10 +28,10 @@
        				$test1=file_get_contents('lib/sys.dat'); //get the contents of the file lib/sys.dat
        				if($test1 == 1){  // if the variable test1 is equal to one
        					echo '<p style="float:left" >System Schedule <br> Status: On</p>'; //echo that the system is on
-       					echo '<button name="sysoff"style="float:right" class="w3-btn w3-teal w3-xlarge w3-hover-indigo w3-round-large"> Turn Off </button><br/>'; //make a buton that says turn off
+       					echo '<button name="sysoff"style="float:right" class="w3-btn w3-teal w3-xlarge w3-hover-indigo w3-round-large"> Turn Off </button><br/><br>'; //make a buton that says turn off
    					}else{ //else
 				       echo '<p style="float:left">System Schedule <br> Status: Off</p>'; //echo that the system is off
-				       echo '</br><button name="syson" style="float:right" class="w3-btn w3-blue w3-xlarge w3-round-large w3-hover-indigo"> Turn On </button><br/>'; //make a button that says turn on
+				       echo '</br><button name="syson" style="float:right" class="w3-btn w3-blue w3-xlarge w3-round-large w3-hover-indigo"> Turn On </button><br/><br>'; //make a button that says turn on
        				}
         		?>
 			</div>
