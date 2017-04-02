@@ -11,11 +11,11 @@
    </head>
    <body>
      <div style="position:fixed;top:0;left:0;">
-	<a href="edit.php" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 1em;">
+	<a href="edit.php" style="float: left;text-decoration: none;color: #fff;font-family: Arial;font-size: 1em;">
 		 	&nbspConfig
 	</a>
 	<br/>
-    <a href="../../" style="float: left;text-decoration: none;color: #fff;font-family: UB;font-size: 1em;">
+    <a href="../../" style="float: left;text-decoration: none;color: #fff;font-family: Arial;font-size: 1em;">
 		&nbspHome
 	</a>
 	</div>
