@@ -11,7 +11,7 @@
    </head>
    <body>
      <div style="position:fixed;top:0;left:0;">
-        <a href="edit,php" class="w3-btn w3-hover-lime" style="float: left;">Config</a>
+        <a href="edit.php" class="w3-btn w3-hover-lime" style="float: left;">Config</a>
         <a href="../.." class="w3-btn w3-hover-pink" style="float: left">Home</a>
 	</div>
     <center>
