@@ -29,9 +29,9 @@
   		if ($value == 1){ $data = "Off"; }else{ $data = "On"; }
    			echo '<br/><p style="float:left;" class="label">Station: '.++$a.' <br>&nbspStatus: '.$data.'</p>';
    		if ($value == 0){
-     		echo '<button style="float:right;" name="off" value='.$a.' class="w3-btn w3-xlarge w3-green w3-round-large w3-hover-teal" id="'.$a.'" onclick="getData('.$a.')">Turn Off </button><br><br>';
+     		echo '<button style="float:right;" name="off" value='.$a.' class="w3-btn w3-xlarge w3-green w3-round-large w3-hover-aqua" id="'.$a.'" onclick="getData('.$a.')">Turn Off </button><br><br>';
    		}else{
-     		echo '<button name="on" style="float:right;" value='.$a.' class="w3-btn w3-xlarge w3-black w3-round-large w3-hover-purple" id="'.$a.'" onclick="getData('.$a.')">Turn On </button><br><br>';
+     		echo '<button name="on" style="float:right;" value='.$a.' class="w3-btn w3-xlarge w3-deep-purple w3-round-large w3-hover-purple" id="'.$a.'" onclick="getData('.$a.')">Turn On </button><br><br>';
    		}?>
 <br>	</div>
 		<?php
