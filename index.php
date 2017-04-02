@@ -6,24 +6,13 @@
      	<script src="https://gavinscodetest.tk/js/1jquery.js"></script>
      	<script src="https://gavinscodetest.tk/js/sprinkler.js"></script>
 
-<<<<<<< HEAD
     	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">    
      	<title>sPrInkler Controller</title>
-=======
-    	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-        
-     	<title></title>
->>>>>>> origin
    </head>
    <body>
      <div style="position:fixed;top:0;left:0;">
-	<a href="edit.php" style="float: left;text-decoration: none;color: #fff;font-family: Arial;font-size: 1em;">
-		 	&nbspConfig
-	</a>
-	<br/>
-    <a href="../../" style="float: left;text-decoration: none;color: #fff;font-family: Arial;font-size: 1em;">
-		&nbspHome
-	</a>
+        <a href="edit,php" class="w3-btn w3-hover-lime" style="float: left;">Config</a>
+        <a href="../.." class="w3-btn w3-hover-pink" style="float: left">Home</a>
 	</div>
     <center>
     	<div style="max-width: 400px;margin-top: 50px; !important;float: none !important;text-align:center;">
