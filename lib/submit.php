@@ -1,7 +1,7 @@
 <?php
 //What is this
-	if(isset($_POST['on'])) {
-			$run = $_POST['on'];
+	if(isset($_GET['on'])) {
+			$run = $_GET['on'];
 			if ($run == 1){$data = 13;}
 			elseif ($run == 2) {$data = 18;}
 			elseif ($run == 3) {$data = 23;}
@@ -16,8 +16,8 @@
 			exec("sudo python off.py");
 			exec("sudo python on.py ".$data);
 		}
-	if(isset($_POST['off'])) {
-			$run = $_POST['off'];
+	if(isset($_GET['off'])) {
+			$run = $_GET['off'];
 			if ($run == 1){$data = 13;}
 			elseif ($run == 2) {$data = 18;}
 			elseif ($run == 3) {$data = 23;}
