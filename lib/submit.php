@@ -30,10 +30,10 @@
 			elseif ($run == 10) {$data = 19;}
 			exec("sudo python off.py");
 		}
-if(isset($_POST['sysoff'])) {
+if(isset($_GET['sysoff'])) {
 		exec('echo 0 > sys.dat');
 	}
-if(isset($_POST['syson'])) {
+if(isset($_GET['syson'])) {
 		exec('echo 1 > sys.dat');
 	}
 header('Location: ../');
