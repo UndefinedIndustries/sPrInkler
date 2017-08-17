@@ -2,9 +2,9 @@
  <html>
    <head>
      	<meta charset="utf-8">
-    	<link href="https://gavinscodetest.tk/css/style.css" rel="stylesheet" type="text/css"></link>
-     	<script src="https://gavinscodetest.tk/js/1jquery.js"></script>
-     	<script src="https://gavinscodetest.tk/js/sprinkler.js"></script>
+    	<link href="https://gt3ch1.tk/css/style.css" rel="stylesheet" type="text/css"></link>
+     	<script src="https://gt3ch1.tk/js/1jquery.js"></script>
+     	<script src="https://gt3ch1s.tk/js/sprinkler.js"></script>
 
     	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">    
      	<title>sPrInkler Controller</title>
@@ -22,10 +22,10 @@
        			<?php
        				$test1=file_get_contents('lib/sys.dat'); //get the contents of the file lib/sys.dat
        				if($test1 == 1){  // if the variable test1 is equal to one
-       					echo '<p style="float:left" >System Schedule <br> Status: On</p>'; //echo that the system is on
+       					echo '<p style="float:left" >System Schedule<br>Status: On</p>'; //echo that the system is on
        					echo '<button name="sysoff" id="sysoff" style="float:right" class="w3-btn w3-teal w3-xlarge w3-hover-indigo w3-round-large"> Turn Off </button><br/><br>'; //make a buton that says turn off
    					}else{ //else
-				       echo '<p style="float:left">System Schedule <br> Status: Off</p>'; //echo that the system is off
+				       echo '<p style="float:left">System Schedule<br>Status: Off</p>'; //echo that the system is off
 				       echo '<button name="syson" id="syson" style="float:right" class="w3-btn w3-blue w3-xlarge w3-round-large w3-hover-indigo"> Turn On </button><br/><br>'; //make a button that says turn on
        				}
         		?>
