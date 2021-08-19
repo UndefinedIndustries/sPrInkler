@@ -1,4 +1,2 @@
 # sPrInkler
-A Basic Raspberry Pi Sprinkler Controller using RPIGPIO, PHP5, and Raspian
-This is a module for my PiMation automation system.  Please see
-https://github.com/UndefinedIndustries/PiMation for the system.
+THIS PROJECT HAS BEEN DEPRECATED IN FAVOR OF SQLSprinkler.  PLEASE SEE THE PROJECT [HERE](https://github.com/GT3CH1/SQLSprinkler)
